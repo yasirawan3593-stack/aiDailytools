@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/ads.txt", "destination": "/ads.txt" },
+    { "source": "/privacy.html", "destination": "/privacy.html" },
+    { "source": "/about.html", "destination": "/about.html" },
+    { "source": "/contact.html", "destination": "/contact.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
