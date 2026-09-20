@@ -143,7 +143,11 @@ export default function App() {
           </section>
         </>
       )}
-      <footer className="text-center p-10 text-gray-500 text-sm">© 2026 AI Daily Tools - Made by Yasir Awan</footer>
-    </div>
-  )
-}
+      <footer className="text-center p-10 text-gray-400">
+  <div className="flex justify-center gap-6 mb-4">
+    <a href="/about.html" className="hover:text-white underline">About Us</a>
+    <a href="/privacy.html" className="hover:text-white underline">Privacy Policy</a>
+    <a href="/contact.html" className="hover:text-white underline">Contact Us</a>
+  </div>
+  <p>© 2026 AI Daily Tools - All Rights Reserved</p>
+</footer>
